@@ -1,0 +1,70 @@
+package JavaDocs;
+
+/**
+ * The firsttest program implements addition subtract multiple division an
+ * application that
+ * simply displays to the standard output.
+ *
+ * @author Sunny 
+ * @version 1.0
+ * @since 2022-06-21
+ */
+public class JavaDocs {
+	/**
+	 * <h1>method add two number--> data type int</h1>
+	 * <p>
+	 * it take two variable "a" and "b" add and return "a" and "b"
+	 * </p>
+	 * 
+	 * @param a : this is first parameter, type = int
+	 * @param b : this is second parameter ,type = int
+	 * @return a+b : this returns sum of "a" and "b"
+	 */
+
+	public int add(int a, int b) {
+		return a + b;
+
+	}
+
+	/**
+	 * <h1>method sub two number--> data type int</h1>
+	 * <p>
+	 * it take two variable "a" and "b" sub and return "a" and "b"
+	 * </p>
+	 * 
+	 * @param a : this is first parameter , type = int
+	 * @param b : this is second parameter, type = int
+	 * @return a-b : this is return sum of "a" and "b"
+	 */
+	public int sub(int a, int b) {
+		return a - b;
+	}
+
+	/**
+	 * <h1>method mul two number--> data type int</h1>
+	 * <p>
+	 * it take two variable "a" and "b" mul and return "a" and "b"
+	 * </p>
+	 * 
+	 * @param a : this is first parameter , type = int
+	 * @param b : this is second parameter , type = int
+	 * @return a*b : this is return sum of "a" and "b"
+	 */
+	public int mul(int a, int b) {
+		return a * b;
+	}
+
+	/**
+	 * <h1>method div two number--> data type int</h1>
+	 * <p>
+	 * it take two variable "a" and "b" div and return "a" and "b"
+	 * </p>
+	 * 
+	 * @param a : this is first parameter, type = int
+	 * @param b :this is second parameter , type = int
+	 * @return a/b : this is return sum of "a" and "b"
+	 */
+	public int div(int a, int b) {
+		return a / b;
+	}
+}
